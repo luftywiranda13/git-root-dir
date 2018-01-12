@@ -1,6 +1,6 @@
 {
   "name": "git-root-dir",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Find the root `.git` directory",
   "license": "MIT",
   "repository": "https://github.com/luftywiranda13/git-root-dir",
