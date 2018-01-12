@@ -5,7 +5,7 @@
 [![Coverage Status](https://img.shields.io/codecov/c/github/luftywiranda13/git-root-dir/master.svg)](https://codecov.io/gh/luftywiranda13/git-root-dir)
 [![Downloads Status](https://img.shields.io/npm/dm/git-root-dir.svg)](https://npm-stat.com/charts.html?package=git-root-dir&from=2016-04-01)
 
-Find the root `.git` directory.
+Find the root path of a `git` project.
 
 Useful for tools that need to know whether `git` is managing the things inside.
 
@@ -42,7 +42,7 @@ gitRootDir(__dirname).then(rootDir => {
 
 ### gitRootDir([cwd])
 
-Returns `Promise<string>` for the `.git` root path or `null` if no `.git` dir found.
+Returns a `Promise` for either the project root path or `null` if it couldn't be found.
 
 #### cwd
 
@@ -53,6 +53,7 @@ Directory to start from.
 
 ## Related
 
+* [git-dir-up](https://github.com/luftywiranda13/git-dir-up) – Find the closest `.git` directory
 * [pkg-dir](https://github.com/sindresorhus/pkg-dir) – Find the root directory of a Node.js project or npm package
 
 ## License
