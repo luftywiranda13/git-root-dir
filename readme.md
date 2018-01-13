@@ -42,7 +42,7 @@ gitRootDir(__dirname).then(rootDir => {
 
 ### gitRootDir([cwd])
 
-Returns a Promise for either the repository root path or null if it couldn't be found.
+Returns a `Promise` for either the repository root path or `null` if it couldn't be found.
 
 #### cwd
 
