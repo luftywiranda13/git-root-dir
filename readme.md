@@ -1,11 +1,11 @@
 # git-root-dir
 
+> Find the root directory of a `git` repository
+
 [![Package Version](https://img.shields.io/npm/v/git-root-dir.svg?style=flat-square)](https://www.npmjs.com/package/git-root-dir)
 [![Downloads Status](https://img.shields.io/npm/dm/git-root-dir.svg?style=flat-square)](https://npm-stat.com/charts.html?package=git-root-dir&from=2016-04-01)
 [![Build Status: Linux](https://img.shields.io/travis/luftywiranda13/git-root-dir/master.svg?style=flat-square)](https://travis-ci.org/luftywiranda13/git-root-dir)
 [![Coverage Status](https://img.shields.io/codecov/c/github/luftywiranda13/git-root-dir/master.svg?style=flat-square)](https://codecov.io/gh/luftywiranda13/git-root-dir)
-
-Find the root directory of a `git` repository.
 
 Useful for tools that need to know whether `git` is managing the things inside.
 
@@ -42,7 +42,7 @@ gitRootDir(__dirname).then(rootDir => {
 
 ### gitRootDir([cwd])
 
-Returns a Promise for either the repository root path or null if it couldn't be found.
+Returns a `Promise` for either the repository root path or `null` if it couldn't be found.
 
 #### cwd
 
