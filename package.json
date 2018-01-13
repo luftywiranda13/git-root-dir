@@ -1,7 +1,7 @@
 {
   "name": "git-root-dir",
   "version": "1.0.1",
-  "description": "Find the root path of a `git` project",
+  "description": "Find the root directory of a `git` repository",
   "license": "MIT",
   "repository": "https://github.com/luftywiranda13/git-root-dir",
   "author": {
