@@ -1,5 +1,7 @@
 # git-root-dir
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/luftywiranda13/git-root-dir.svg)](https://greenkeeper.io/)
+
 [![Package Version](https://img.shields.io/npm/v/git-root-dir.svg?style=flat-square)](https://www.npmjs.com/package/git-root-dir)
 [![Downloads Status](https://img.shields.io/npm/dm/git-root-dir.svg?style=flat-square)](https://npm-stat.com/charts.html?package=git-root-dir&from=2016-04-01)
 [![Build Status: Linux](https://img.shields.io/travis/luftywiranda13/git-root-dir/master.svg?style=flat-square)](https://travis-ci.org/luftywiranda13/git-root-dir)
