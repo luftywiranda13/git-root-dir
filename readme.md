@@ -1,5 +1,7 @@
 # git-root-dir
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/luftywiranda13/git-root-dir.svg)](https://greenkeeper.io/)
+
 > Find the root directory of a `git` repository
 
 [![Package Version](https://img.shields.io/npm/v/git-root-dir.svg?style=flat-square)](https://www.npmjs.com/package/git-root-dir)
